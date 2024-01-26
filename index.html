@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styels.css">
+</head>
+<body>
+    <div class="outer-container">
+        <div class="header">
+            <div class="logo">
+                <img src="images/Shark-logos_black.png">
+            </div>
+            <div class="header-links">
+                <a href="">Home</a>
+                <a href="">Draw</a>
+                <a href="">About</a>
+            </div>
+        </div>
+        <div class="project-name">
+            <h1 >Etch-a-Sketch</h1>
+        </div>
+        <div class="inner-container">
+            <div class="options">
+                <h2>Options</h2>
+                <ul>
+                    <li>
+                        <img src="images/brush.png" >
+                        <label class="active">Brush</label>
+                    </li>
+                    <li>
+                        <img src="images/eraser.png" >
+                        <label id="eraser">Eraser</label>
+                    </li>
+                    <li>
+                        <input type="color"  id="color">
+                        <label for=""> Color</label>
+                    </li>
+                    <li>
+                      <input type="range"  min="1" max="10" id="penSize">
+                    </li>
+                </ul>
+                <div class="buttons">
+                    <button class="clear-btn">Clear Canvas</button>
+                    <br>
+                    <button class="save-btn">Save As Image</button>
+                </div>
+          </div>
+            <div class="related-to-drawing">
+                <div class="shapes">
+                    <div class="brand">
+                        <h2>Shpaes</h2>
+                    </div>
+                    <div class="shpaes-icons">
+                        <img src="images/rectangle.png">
+                        <label id="rectangle">rectangle</label>
+                        <img src="images/circle.png" >
+                        <label id="circle" >Circle</label>
+                        <img src="images/triangle.png">
+                        <label id="triangle">Triangle</label>
+                    </div>
+                </div>
+                <div class="canvas-area">
+                    <canvas>
+
+                    </canvas>
+                </div>           
+             </div>          
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
